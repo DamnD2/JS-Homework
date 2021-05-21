@@ -81,7 +81,7 @@
 }
 
 .popap-btn {
-    text-align: right;
+    text-align: center;
 }
 
 .btn {
@@ -97,5 +97,28 @@
 }
 
 .btn.add-user{
-    margin: 30px 0 0 30px;
+    margin-left: 30px;
+}
+
+.error{
+    display: none;
+    color: red;
+}
+.error.active{
+    display: block;
+}
+
+.table{
+    background-color: #f5f5f5;
+    margin: 30px;
+    border-spacing: 0;
+}
+
+.table th, .table td{
+    padding: 10px;
+    border: 2px solid #000;
+    border-right: none;
+}
+.table th:last-child, .table td:last-child{
+    border-right: 2px solid #000;
 }
