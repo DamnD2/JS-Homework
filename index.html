@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+	<select class="select">
+		<option value="2">display 2 users</option>
+		<option value="4">display 4 users</option>
+		<option value="6" selected>display 6 users</option>
+	</select>
+	<div class="wrapper">
+		<table class="table">
+			<thead class="table__head">
+				<th>id</th>
+				<th>email</th>
+				<th>first name</th>
+				<th>last name</th>
+				<th class="table__head-avatar">avatar</th>
+			</thead>
+			<tbody class="table__body"></tbody>
+		</table>
+		<div class="info hidden">
+			<img src="https://reqres.in/img/faces/1-image.jpg" class="info__avatar"></img>
+			<div class="info__data">
+				<div class="info__name">IVAN VASILIEV</div>
+				<div class="info__data-email">george.bluth@reqres.in</div>
+			</div>
+		</div>
+	</div>
+	<div class="pages"></div>
+	<div class="help">To view user data, click on the avatar!!!</div>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
